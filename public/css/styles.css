@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1rem;
+}
+
+#carouselExampleCaptions {
+    margin: 2vw 0;
+}
+
+.row {
+    margin: 2vw 0;
+}
+
+.card {
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.admin-link {
+    color: blue;
+}
+
+.admin-button {
+    width: 100%;
+}
+
+.admin-button-menu {
+    width: 25%;
+}
+
+.admin-content {
+    width: 75%;
+}
+
+.map-error {
+    font-size: 25px;
+    color: red;
+    text-align: center;
+    padding: 50px;
+}
+
+@media (min-width:992px){
+    .navbar-collapse {
+        display: flex;
+        flex-basis: auto;
+    }
+    
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .col-10 {
+        margin-bottom: 4vw;
+    }
+
+    .admin-button {
+        font-size: 15px;
+    }
+
+    .admin-content {
+        font-size: 14px;
+    }
+
+    .remove-btn, .edit-btn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 821px) {
+    .admin-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .admin-button-menu {
+        width: 90%;
+        margin: 2vh auto;
+    }
+
+    .admin-content {
+        margin: 3vh auto;
+        width: 90%;
+    }
+
+    .admin-info tr {
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .admin-info td {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .col-10:first-of-type {
+        margin-top: 4vw;
+    }
+}
