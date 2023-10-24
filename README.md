@@ -4,6 +4,4 @@ https://www.udemy.com/course/result-oriented-web-developer-course/learn/lecture/
 
 Check out the live website:
 
-https://lets-travel-6ii3.onrender.com
-
 https://lets-travel.adaptable.app/
