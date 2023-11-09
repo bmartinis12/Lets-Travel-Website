@@ -1,6 +1,6 @@
 # Lets-Travel-Website
-An example travel website created by me as a part of the result-oriented web development course projects
-https://www.udemy.com/course/result-oriented-web-developer-course/learn/lecture/12562260#overview
+
+A travel blog website that allows you to add and edit posts from the admin screen!
 
 Check out the live website:
 
